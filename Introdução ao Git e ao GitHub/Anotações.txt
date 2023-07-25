@@ -1,0 +1,66 @@
+GUI - Graphic user interface (tipo de programa que você pode interagir)
+
+CLI - Command line interface (apenas digitando)
+
+Windows 
+
+- CD.. - change directory
+- DIR - Diretorios
+- MKDIR - Make directory (criar pasta)
+- DEL / RMDIR
+- CLS - clear screen
+- ECHO - printar no terminal
+- RMDIR - remover pasta 
+- GIT CONFIG
+- INIT 
+- GIT STATUS
+- MV arquivo ./pasta - mover arquivo para pasta
+
+COMMIT > TREE > BLOBS
+
+Mexeu em um, mexeu com todos
+
+eduar@Jabes MINGW64 ~
+
+$ git config --global user.name "Eduardo"
+
+eduar@Jabes MINGW64 ~
+
+$ git config --global user.email [eduardo.lupi@outlook.com](mailto:eduardo.lupi@outlook.com)
+
+-git init
+
+-git add
+
+-git commit
+
+-ls -a (ver arquivos ocultos)
+
+git config –global user.email > criar conta
+
+git config –global user.name > criar conta
+
+git add *
+git commit - m “nome” > adicionar commit
+
+git status
+
+
+
+ENVIAR PARA O GITHUB
+
+git remote add origin [https://github.com/EduardoBand/](https://github.com/EduardoBand/Teste.git)
+
+git push origin master
+
+PROBLEMAS
+
+git pull origin master > para tentar juntas as duas versões 
+
+
+
+CLONAR 
+
+copiar o link no github
+
+git clone <URL>
